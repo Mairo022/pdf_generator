@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./tailwind.js"></script>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Noto+Sans:400,600,700,400italic,700italic&subset=latin,latin-ext'>
+    <title>Document</title>
+</head>
+<style>
+    .my-font {
+        font-family: 'Noto Sans', "sans-serif";
+    }
+</style>
+<body class="p-5 my-font flex flex-col min-h-dvh">
+    <header>
+        <div class="flex justify-between items-center">
+            <h1 class="text-[36px] font-bold">Revolut</h1>
+            <div>
+                <h1 class="text-[28px] font-semibold">EUR Statement</h1>
+            </div>
+        </div>
+        <div class="mt-[-8px]">
+            <p class="text-[10px] text-right font-medium">Generated on the 23 May 2024</p>
+            <p class="text-[10px] text-right">Revolut Bank UAB</p>
+        </div>
+    </header>
+    <main class="py-11">
+        <section id="client-info">
+            <h2 class="font-semibold">SANDRA SAULGRIEZE</h2>
+            <div class="font-bold text-[11px] mt-3 leading-[15px]">
+                <p>14 The Dale</p>
+                <p>Whitefield hall</p>
+                <p>Bettystown</p>
+                <p>Meath</p>
+                <p>A92N27C</p>
+            </div>
+            <div class="w-max max-w-[300px] ml-[auto] flex flex-col gap-3">
+                <div class="row-account">
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">IBAN</p>
+                        <span class="text-[11px]">IE30REVO99036022547749</span>
+                    </div>
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">BIC</p>
+                        <span class="text-[11px]">REVOIE23</span>
+                    </div>
+                </div>
+                <div class="row-account">
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">IBAN</p>
+                        <span class="text-[11px]">LT093250041069208595</span>
+                    </div>
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">BIC</p>
+                        <span class="text-[11px]">IE30REVO99036022547749</span>
+                        <p class="pl-[55px] text-[11px]">(You cannot use this IBAN for bank transfers. Please use the IBAN found in the app)</p>
+                    </div>
+                </div>
+                <div class="row-account">
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">IBAN</p>
+                        <span class="text-[11px]">LT087070024346246713</span>
+                    </div>
+                    <div class="leading-[16px]">
+                        <p class="text-[12px] font-semibold inline-block w-[50px]">BIC</p>
+                        <span class="text-[11px]">RETBLT21</span>
+                        <p class="pl-[55px] text-[11px]">(You cannot use this IBAN for bank transfers. Please use the IBAN found in the app)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="balance" class="mt-10">
+            <h2 class="font-semibold">Balance Summary</h2>
+            <table class="table-auto w-full text-[13px] border-spacing-y-2 mt-3">
+                <thead>
+                    <tr>
+                        <th class="text-left w-[30%]">Product</th>
+                        <th class="text-left">Opening balance</th>
+                        <th class="text-left">Money out</th>
+                        <th class="text-left">Money in</th>
+                        <th class="text-right">Closing <br> balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-t-[1px] border-black">
+                        <td class="py-2">Account (Current Account)</td>
+                        <td>€2.52</td>
+                        <td>€1,944.09</td>
+                        <td>€1,978.00</td>
+                        <td class="text-right">€36.43</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-black">
+                        <td class="py-2">Total</td>
+                        <td>€2.52</td>
+                        <td>€1,944.09</td>
+                        <td>€1,978.00</td>
+                        <td class="text-right">€36.43</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-[6.5px] mt-1">The balance on your statement might differ from the balance shown in your app. The statement balance only reflects completed transactions, while the app shows the balance available for use, which accounts for pending transactions.</p>
+        </section>
+        <section id="transactions" class="mt-8">
+            <h2 class="font-semibold">Account transactions from 1 February 2023 to 29 March 2023</h2>
+            <table class="table-auto w-full text-[13px] border-spacing-y-2 mt-3">
+                <thead>
+                <tr>
+                    <th class="text-left w-[140px]">Date</th>
+                    <th class="text-left w-[30%]">Description</th>
+                    <th class="text-left">Money out</th>
+                    <th class="text-left">Money in</th>
+                    <th class="text-right">Balance</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="border-t-[1px] border-black">
+                    <td>3 Feb 2023</td>
+                    <td class="py-2">Apple Pay Top-Up by *5453</td>
+                    <td></td>
+                    <td>€50.00</td>
+                    <td class="text-right">€52.52</td>
+                </tr>
+                <tr class="border-t-[1px] border-black">
+                    <td>3 Feb 2023</td>
+                    <td class="py-2">Apple Pay Top-Up by *5453</td>
+                    <td></td>
+                    <td>€100.00</td>
+                    <td class="text-right">€152.52</td>
+                </tr>
+                <tr class="border-t-[1px] border-black">
+                    <td>8 Feb 2023</td>
+                    <td class="py-2">
+                        <p>Elzyt Kristina</p>
+                        <div class="text-[6.5px]">
+                            <p>To: Elzyt Kristina, Dublin</p>
+                            <p>Card: 416598******8124</p>
+                        </div>
+                    </td>
+                    <td>€20.00</td>
+                    <td></td>
+                    <td class="text-right">€132.52</td>
+                </tr>
+                <tr class="border-t-[1px] border-black">
+                    <td>13 Feb 2023</td>
+                    <td class="py-2">Apple Pay Top-Up by *5453</td>
+                    <td></td>
+                    <td>€100.00</td>
+                    <td class="text-right">€232.52</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="flex mt-auto">
+        <div id="qr-code" class="w-[42px] h-[42px] shrink-0 bg-gray-300 self-center mr-3"></div>
+        <div class="w-[131px] shrink-0 mr-4 self-center">
+            <p class="text-[11px]">Report lost or stolen card</p>
+            <p class="text-[8px]">+370 5 214 3608</p>
+            <p class="text-[11px]">Get help directly In app</p>
+            <p class="text-[8px]">Scan the QR code</p>
+        </div>
+        <p class="text-[8px] leading-[10px] self-center">
+            Revolut Bank UAB is a credit institution licensed in the Republic of Lithuania with company number 304580906 and authorisation code
+            LB002119, and whose registered office is at Konstitucijos ave. 21B, LT-08130 Vilnius, the Republic of Lithuania. We are licensed and
+            regulated by the Bank of Lithuania and the European Central Bank. The deposits are protected by Lithuanian Deposit Insurance System
+            but some exceptions may apply. Please refer to our Deposit Insurance Information document
+            <a href="" class="text-blue-600">here</a>.
+            More information on deposit insurance of the State Enterprise Deposit and Investment Insurance (VĮ “Indėlių ir investicijų draudimas”) is available at
+            <a href="" class="text-blue-600">www.iidraudimas.lt.</a>
+            If you have any questions, please reach out to us via the in-app chat in the Revolut app.
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
