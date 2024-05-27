@@ -5,6 +5,7 @@ go 1.21.6
 require github.com/unidoc/unipdf/v3 v3.58.0
 
 require (
+	github.com/a-h/templ v0.2.707
 	github.com/chromedp/cdproto v0.0.0-20240519224452-66462be74baa // indirect
 	github.com/chromedp/chromedp v0.9.5 // indirect
 	github.com/chromedp/sysutil v1.0.0 // indirect
